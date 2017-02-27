@@ -3,7 +3,7 @@ Using for example of xml2object
 
 You can get xml2object with composer or https://github.com/kernel-php/xml2object.
 
-xml2object is a parser, a DOM analysis makes an object with an xml. The DOM extension is required.
+xml2object is a parser, a DOM analysis makes an object from an xml. The DOM extension is required.
 
 The DOM extension required allows you to operate on XML documents through the DOM API with PHP. 
 
