@@ -1,0 +1,112 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3244a0e144caedee058e602f8b61d045",
+    "content-hash": "a9d899eaf71712832b858a753b8fb797",
+    "packages": [
+        {
+            "name": "kernel-php/xml2object",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kernel-php/xml2object.git",
+                "reference": "fa9fe65d06ec0e880bf8df43a775610fe8914549"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kernel-php/xml2object/zipball/fa9fe65d06ec0e880bf8df43a775610fe8914549",
+                "reference": "fa9fe65d06ec0e880bf8df43a775610fe8914549",
+                "shasum": ""
+            },
+            "require": {
+                "kernel-php/xml2object": "dev-master",
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Xml2Object\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Pascal Koch",
+                    "email": "app@pascalkoch.net"
+                }
+            ],
+            "description": "parser xml2object.",
+            "homepage": "https://github.com/kernel-php/xml2object",
+            "keywords": [
+                "parser",
+                "php",
+                "xml2object"
+            ],
+            "time": "2017-02-24 23:31:32"
+        },
+        {
+            "name": "sunra/dbug",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunra/dBug.git",
+                "reference": "ecd8a589dc3ee1bba84095828c222ff560bc19e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunra/dBug/zipball/ecd8a589dc3ee1bba84095828c222ff560bc19e5",
+                "reference": "ecd8a589dc3ee1bba84095828c222ff560bc19e5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ospinto\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "sunra",
+                    "email": "sunra@yandex.ru",
+                    "homepage": "http://github.com/sunra"
+                },
+                {
+                    "name": "Kwaku Otchere",
+                    "email": "ospinto@hotmail.com"
+                }
+            ],
+            "description": "Most beautiful variable dump library for PHP (ColdFusion like style)",
+            "homepage": "http://github.com/sunra/dBug.git",
+            "keywords": [
+                "debug",
+                "dump",
+                "php"
+            ],
+            "time": "2015-12-14 22:37:24"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "kernel-php/xml2object": 20,
+        "sunra/dbug": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

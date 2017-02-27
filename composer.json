@@ -1,0 +1,14 @@
+{
+    "name": "kernel-php/xml2object-example",
+    "description": "Description of project xml2objectExample.",
+    "authors": [
+        {
+            "name": "pascalk",
+            "email": "app@pascalkoch.net"
+        }
+    ],
+    "require": {
+        "kernel-php/xml2object": "dev-master",
+        "sunra/dbug": "dev-master"
+    }
+}

@@ -1,0 +1,96 @@
+[
+    {
+        "name": "kernel-php/xml2object",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kernel-php/xml2object.git",
+            "reference": "fa9fe65d06ec0e880bf8df43a775610fe8914549"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kernel-php/xml2object/zipball/fa9fe65d06ec0e880bf8df43a775610fe8914549",
+            "reference": "fa9fe65d06ec0e880bf8df43a775610fe8914549",
+            "shasum": ""
+        },
+        "require": {
+            "kernel-php/xml2object": "dev-master",
+            "php": ">=5.3.2"
+        },
+        "time": "2017-02-24 23:31:32",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Xml2Object\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Pascal Koch",
+                "email": "app@pascalkoch.net"
+            }
+        ],
+        "description": "parser xml2object.",
+        "homepage": "https://github.com/kernel-php/xml2object",
+        "keywords": [
+            "parser",
+            "php",
+            "xml2object"
+        ]
+    },
+    {
+        "name": "sunra/dbug",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sunra/dBug.git",
+            "reference": "ecd8a589dc3ee1bba84095828c222ff560bc19e5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sunra/dBug/zipball/ecd8a589dc3ee1bba84095828c222ff560bc19e5",
+            "reference": "ecd8a589dc3ee1bba84095828c222ff560bc19e5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2015-12-14 22:37:24",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Ospinto\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "sunra",
+                "email": "sunra@yandex.ru",
+                "homepage": "http://github.com/sunra"
+            },
+            {
+                "name": "Kwaku Otchere",
+                "email": "ospinto@hotmail.com"
+            }
+        ],
+        "description": "Most beautiful variable dump library for PHP (ColdFusion like style)",
+        "homepage": "http://github.com/sunra/dBug.git",
+        "keywords": [
+            "debug",
+            "dump",
+            "php"
+        ]
+    }
+]
