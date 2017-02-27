@@ -17,7 +17,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-    require "../vendor/autoload.php";
+    require "vendor/autoload.php";
 
     $xml = '<?xml version="1.0" encoding="UTF-8" ?>
         <export>
